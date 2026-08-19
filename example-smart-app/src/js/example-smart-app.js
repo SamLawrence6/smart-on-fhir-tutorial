@@ -16,10 +16,11 @@
                     query: {
                       code: {
                         $or: [
-                               'http://loinc.org|8302-2', // Body Height
-                               'http://loinc.org|2085-9', // HDL Cholesterol
-                               'http://loinc.org|2089-1', // LDL Cholesterol
-                               'http://loinc.org|85354-9' // Blood Pressure Systolic and Diastolic
+                               'http://loinc.org|8302-2',  // Body Height
+                               'http://loinc.org|2085-9',  // HDL Cholesterol
+                               'http://loinc.org|2089-1',  // LDL Cholesterol
+                               'http://loinc.org|85354-9', // Blood Pressure Systolic and Diastolic
+                               'http://loinc.org|8310-5'   // Temperature
                              ]
                       }
                     }
